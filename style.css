@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__text-container {
+    display: flex;
+    flex-direction: row;
+}
+
